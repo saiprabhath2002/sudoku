@@ -53,4 +53,4 @@ def solve1():
     new=new.astype(int)
     return render_template('home.html',arr=new)
 if __name__=="__main__":
-    app.run(debug=True)
+    app.run(host="0.0.0.0" ,port=5000)
